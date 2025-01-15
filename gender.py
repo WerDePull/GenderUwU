@@ -11,7 +11,7 @@ from sklearn.metrics import classification_report
 from sklearn.utils import resample
 
 # Завантаження даних
-file_path = r"D:\\blog\\blog\\blog-gender-dataset.xlsx"
+file_path = r"blog-gender-dataset.xlsx"
 df = pd.read_excel(file_path, header=None)  # Читаємо без заголовків
 
 # Видалення рядків із порожніми текстами
